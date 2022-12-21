@@ -1,0 +1,71 @@
+@media (min-width: 992px) {
+    .navbar {
+        padding-top: 20px;
+    }
+    
+    .navbar-brand, .nav-link {
+        color: white !important;
+    }
+
+    .nav-link {
+        margin-right: 20px;
+    }
+
+    .nav-link:hover::after,
+    .nav-link.active::after {
+        content: '';
+        display: block;
+        margin: auto;
+        width: 50%;
+        padding-top: 5px;
+    }
+
+
+    .jumbotron {
+        margin-top: -90px;
+        height: 640px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 5em;
+        margin-top: 150px;
+    }
+
+
+    .workingspace {
+        text-align: left;
+    }
+}
+
+
+/* team section */
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    object-fit: cover;
+}
